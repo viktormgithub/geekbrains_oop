@@ -4,7 +4,10 @@
     {
         static void Main()
         {
-            Console.WriteLine(ReverseString("microsoft"));
+            string input = "microsoft";
+            string output = "tfosorcim";
+            
+            Console.WriteLine(input == ReverseString(output));
         }
 
         private static string ReverseString(string input)
